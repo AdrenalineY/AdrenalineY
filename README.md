@@ -77,10 +77,28 @@
   <img src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/github-metrics/base.svg" alt="metrics base"/>
 </p>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/github-metrics/languages.indepth.svg" height="180" alt="metrics language indepth"/>
-  <img src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/github-metrics/isocalendar.fullyear.svg" height="180" alt="metrics isocalendar"/>
-</p>
+<table>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/reactions.svg" alt="reactions" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/wakatime.svg" alt="wakatime" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" alt="stars" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
+  </tr>
+</table>
 
 ## Pac-Man Contribution Graph
 
@@ -90,13 +108,6 @@
   <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph.svg">
 </picture>
 
-## Snake Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-snake-contrib/github-contribution-grid-snake.svg">
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-snake-contrib/github-contribution-grid-snake.svg">
-</picture>
 
 ## 3D Contribution Profile
 
