@@ -87,10 +87,6 @@
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/wakatime.svg" alt="wakatime" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stackoverflow.svg" alt="stackoverflow" /></td>
-  </tr>
-  <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" alt="stars" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
