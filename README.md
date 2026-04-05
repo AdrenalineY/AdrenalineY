@@ -83,12 +83,8 @@
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/habits.svg" alt="habits" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/achievements.svg" alt="achievements" /></td>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/notable.svg" alt="notable" /></td>
-  </tr>
-  <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" alt="stars" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stargazers.chartist.svg" alt="stargazers.chartist" /></td>
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>

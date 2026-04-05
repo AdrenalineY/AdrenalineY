@@ -29,11 +29,10 @@ jobs:
           filename: github-metrics/languages.indepth.svg
           base: ""
           plugin_languages: yes
-          plugin_languages_indepth: yes
           plugin_languages_details: lines, bytes-size, percentage
-          plugin_languages_limit: 20
+          plugin_languages_limit: 10
           plugin_languages_other: yes
-          plugin_languages_analysis_timeout: 30
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_recent_load: 500
           plugin_languages_recent_days: 365
 
@@ -71,21 +70,9 @@ jobs:
           base: ""
           plugin_habits: yes
           plugin_habits_charts: yes
-          plugin_habits_days: 30
-          plugin_habits_from: 200
+          plugin_habits_days: 365
+          plugin_habits_from: 1000
           plugin_habits_trim: yes
-
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        continue-on-error: true
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: AdrenalineY
-          filename: github-metrics/achievements.svg
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
 
       - name: Notable contributions
         uses: lowlighter/metrics@latest
@@ -110,17 +97,6 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 10
 
-      - name: Stargazers chart
-        uses: lowlighter/metrics@latest
-        continue-on-error: true
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: AdrenalineY
-          filename: github-metrics/stargazers.chartist.svg
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts_type: chartist
-
       - name: Full calendar
         uses: lowlighter/metrics@latest
         continue-on-error: true
@@ -130,4 +106,4 @@ jobs:
           filename: github-metrics/calendar.full.svg
           base: ""
           plugin_calendar: yes
-          plugin_calendar_limit: 3
+          plugin_calendar_limit: 4
