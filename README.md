@@ -12,14 +12,14 @@
 
 <p align="center">
   M.S. in Software Engineering @ Nanjing University<br/>
-  Focus: Agent Development, LLM for Software Engineering, AIOps Platform
+  Focus: Agent Development, LLM for Software Engineering
 </p>
 
 ---
 
 ## Profile
 
-- 求职方向：Agent 开发与优化工程师 / 大模型算法工程师 / AIOps 平台工程
+- 求职方向：Agent 开发与优化工程师 / 大模型算法工程师
 - 当前目标：构建可上线、可评测、可持续优化的代码智能体系统
 - 技术关键词：SFT, DPO, FIM, NES, 检索增强, LLM-as-Judge, Pairwise Evaluation
 
@@ -80,11 +80,11 @@
 <table>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/reactions.svg" alt="reactions" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/habits.svg" alt="habits" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/followup.indepth.svg" alt="followup.indepth" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/repositories.pinned.svg" alt="repositories.pinned" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/achievements.svg" alt="achievements" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/notable.svg" alt="notable" /></td>
   </tr>
   <tr>
     <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" alt="stars" /></td>

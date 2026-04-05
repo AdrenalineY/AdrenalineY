@@ -30,8 +30,12 @@ jobs:
           base: ""
           plugin_languages: yes
           plugin_languages_indepth: yes
-          plugin_languages_details: lines, bytes-size
-          plugin_languages_limit: 6
+          plugin_languages_details: lines, bytes-size, percentage
+          plugin_languages_limit: 20
+          plugin_languages_other: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_recent_load: 500
+          plugin_languages_recent_days: 365
 
       - name: Full-year isocalendar
         uses: lowlighter/metrics@latest
@@ -57,39 +61,43 @@ jobs:
           plugin_activity_days: 0
           plugin_activity_filter: issue, pr, release, fork, review, ref/create
 
-      - name: Reactions
+      - name: Coding habits
         uses: lowlighter/metrics@latest
         continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: AdrenalineY
-          filename: github-metrics/reactions.svg
+          filename: github-metrics/habits.svg
           base: ""
-          plugin_reactions: yes
-          plugin_reactions_limit: 200
+          plugin_habits: yes
+          plugin_habits_charts: yes
+          plugin_habits_days: 30
+          plugin_habits_from: 200
+          plugin_habits_trim: yes
 
-      - name: Follow-up indepth
+      - name: Achievements
         uses: lowlighter/metrics@latest
         continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: AdrenalineY
-          filename: github-metrics/followup.indepth.svg
+          filename: github-metrics/achievements.svg
           base: ""
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_followup_indepth: yes
+          plugin_achievements: yes
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: C
 
-      - name: Pinned repositories
+      - name: Notable contributions
         uses: lowlighter/metrics@latest
         continue-on-error: true
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           user: AdrenalineY
-          filename: github-metrics/repositories.pinned.svg
+          filename: github-metrics/notable.svg
           base: ""
-          plugin_repositories: yes
-          plugin_repositories_pinned: 6
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_notable_from: all
 
       - name: Stars
         uses: lowlighter/metrics@latest
@@ -100,7 +108,7 @@ jobs:
           filename: github-metrics/stars.svg
           base: ""
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 10
 
       - name: Stargazers chart
         uses: lowlighter/metrics@latest
@@ -122,4 +130,4 @@ jobs:
           filename: github-metrics/calendar.full.svg
           base: ""
           plugin_calendar: yes
-          plugin_calendar_limit: 1
+          plugin_calendar_limit: 3
