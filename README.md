@@ -60,7 +60,7 @@
   <img src="https://img.shields.io/badge/ML%20Eval-LLM--as--Judge-7c3aed?style=flat-square" alt="llm judge"/>
 </p>
 
-## GitHub Stats
+<!-- ## GitHub Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=AdrenalineY&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github" height="170" alt="stats"/>
@@ -69,7 +69,7 @@
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AdrenalineY&theme=github-compact&hide_border=true" alt="activity graph"/>
-</p>
+</p> -->
 
 ## Generated SVG Dashboard
 

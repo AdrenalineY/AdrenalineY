@@ -29,12 +29,13 @@ jobs:
           filename: github-metrics/languages.indepth.svg
           base: ""
           plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot, jupyter notebook
           plugin_languages_details: lines, bytes-size, percentage
-          plugin_languages_limit: 10
+          plugin_languages_limit: 8
           plugin_languages_other: yes
-          plugin_languages_sections: most-used, recently-used
-          plugin_languages_recent_load: 500
-          plugin_languages_recent_days: 365
+          plugin_languages_analysis_timeout: 15
 
       - name: Full-year isocalendar
         uses: lowlighter/metrics@latest
@@ -69,10 +70,10 @@ jobs:
           filename: github-metrics/habits.svg
           base: ""
           plugin_habits: yes
+          plugin_habits_facts: no
           plugin_habits_charts: yes
-          plugin_habits_days: 365
-          plugin_habits_from: 1000
           plugin_habits_trim: yes
+          config_timezone: Asia/Shanghai
 
       - name: Notable contributions
         uses: lowlighter/metrics@latest
@@ -106,4 +107,4 @@ jobs:
           filename: github-metrics/calendar.full.svg
           base: ""
           plugin_calendar: yes
-          plugin_calendar_limit: 4
+          plugin_calendar_limit: 0
