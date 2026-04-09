@@ -15,6 +15,14 @@
   Focus: Agent Development, LLM for Software Engineering
 </p>
 
+## Pac-Man Contribution Graph
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph.svg">
+</picture>
+
 ---
 
 ## Profile
@@ -60,6 +68,16 @@
   <img src="https://img.shields.io/badge/ML%20Eval-LLM--as--Judge-7c3aed?style=flat-square" alt="llm judge"/>
 </p>
 
+
+## 3D Contribution Profile
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-night-rainbow.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-green-animate.svg">
+  <img alt="3d contribution profile" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-night-rainbow.svg">
+</picture>
+
+
 <!-- ## GitHub Stats
 
 <p align="center">
@@ -79,35 +97,19 @@
 
 <table>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/languages.indepth.svg" alt="languages.indepth" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/habits.svg" alt="habits" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/languages.indepth.svg" width="100%" alt="languages.indepth" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/habits.svg" width="100%" alt="habits" /></td>
   </tr>
   <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/notable.svg" alt="notable" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" alt="stars" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/isocalendar.fullyear.svg" alt="isocalendar.fullyear" /></td>
-    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/calendar.full.svg" alt="calendar.full" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/notable.svg" width="100%" alt="notable" /></td>
+    <td><img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/isocalendar.fullyear.svg" width="100%" alt="isocalendar.fullyear" /></td>
   </tr>
 </table>
 
-## Pac-Man Contribution Graph
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/output/pacman-contribution-graph.svg">
-</picture>
-
-
-## 3D Contribution Profile
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-night-rainbow.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-green-animate.svg">
-  <img alt="3d contribution profile" src="https://raw.githubusercontent.com/AdrenalineY/AdrenalineY/main/profile-3d-contrib/profile-night-rainbow.svg">
-</picture>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/stars.svg" width="49%" alt="stars" />
+  <img src="https://cdn.jsdelivr.net/gh/AdrenalineY/AdrenalineY/github-metrics/calendar.full.svg" width="49%" alt="calendar.full" />
+</p>
 
 
 ## Contact
