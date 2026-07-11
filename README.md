@@ -12,7 +12,7 @@
 
 <p align="center">
   M.S. in Software Engineering @ Nanjing University<br/>
-  Focus: Agent Development, LLM for Software Engineering
+  Focus: LLM Post-training, Agent Systems, LLM for Software Engineering
 </p>
 
 ## Pac-Man Contribution Graph
@@ -27,37 +27,49 @@
 
 ## Profile
 
-- 求职方向：Agent 开发与优化工程师 / 大模型算法工程师
-- 当前目标：构建可上线、可评测、可持续优化的代码智能体系统
-- 技术关键词：SFT, DPO, FIM, NES, 检索增强, LLM-as-Judge, Pairwise Evaluation
+- 求职方向：大模型研发工程师 / Agent 开发工程师
+- 研究与实践方向：大模型后训练、代码智能、Agent 上下文编排、工具系统与记忆系统
+- 技术关键词：SFT, DPO, FIM, ReAct, LangGraph, RAG, LLM-as-Judge, Pairwise Evaluation
 
 ## Education
 
-- 南京大学 软件工程 硕士，2025.09 - 2027.06
-- 南京大学 软件工程 本科，2021.09 - 2025.06
-- GPA 4.40/5.0，综合排名前 30%，保研本校
+- 南京大学软件学院 软件工程硕士，2025.09 - 2027.06
+- 南京大学软件学院 软件工程学士，2021.09 - 2025.06
 
 ## Selected Work
 
 ### 中国电信广东研究院 | 大模型研发工程师实习（2024.11 - 2025.05）
 
-- 构建百万级高质量 FIM 数据：AST + 规则 + PPL 过滤，提升数据贴近真实开发场景
-- 设计仓库级上下文检索：BM25 + Call Graph，并用加权 PPL 强化学习优化检索器，EM 提升 20%
-- 训练流程：全量 SFT + DPO 两阶段，课程学习编排与 BLEU 过滤对齐数据
-- 业务结果：模型上线后输出采纳率由 15% 提升至 20%+
+- 参与电信研发云内部企业级代码补全模型训练与优化，负责训练数据治理与训练算法调优
+- 结合 AST 分析开发者补全习惯，设计贴近真实使用场景的数据合成策略，构建百万条量级高质量训练数据集
+- 采用 SFT + DPO 两阶段训练流程，针对上下文重复等异常输出构造偏好数据；输出冗余长度下降 15%+，上下文重复率下降 60%+
+- 模型上线研发云平台，代码补全采纳率由 15% 提升至 25%+；核心方法投稿 EMSE（CCF-B，第二作者，送审）
 
-### 腾讯犀牛鸟 NES 自然语言解释项目（2025.11 - 至今）
+### 每日简报与知识管理 Agent 系统 | 独立开发（2026.04 - 2026.06）
 
-- 搭建 NES 与 NES 解释数据合成流水线，覆盖分类、标注、正负例构造
-- 设计 Pairwise 的 LLM-as-Judge 评测体系，结合 ELO 与 Bradley-Terry 计算能力分数
-- 持续优化长度与位置偏见，提升模型打分与人类偏好一致性
+- 独立设计并实现本地优先的 AI 信息简报与知识管理系统，形成“采集—筛选—沉淀—维护”闭环
+- 设计统一采集链路，串联去重、向量粗筛与 LLM 精筛，以较低成本生成来源可追溯的每日简报
+- 基于 LangGraph 构建受控 ReAct Agent，通过搜索、读取、修订、关联与审核提案工具辅助维护知识库
+- 设计分层记忆机制，将会话经验、长期摘要与待复核内容分层维护，并在运行时召回相关记忆辅助决策
 
-### 仓库级代码补全检索研究（2025.06 - 2025.09）
+### 腾讯犀牛鸟 NES 解释生成校企科研合作项目（2025.11 - 2026.04）
 
-- 提出 RRL 指标评估多上下文复合作用有效性
-- 基于强化学习训练 CARLCoder 检索器，EM 提升 43.8%，ES 提升 15.6%
+- 面向下一步编辑建议（NES）解释生成场景，基于 Agent 执行轨迹构建数据合成与 LLM 评测链路
+- 搭建 NES 与解释数据的合成、筛选和质量标注流程，初步合成 1k+ 高质量 NES 数据
+- 构建 Pairwise LLM-as-Judge 评测体系，结合 ELO 与 Bradley-Terry 计算能力分数，并优化位置与长度偏差
+
+### 仓库级代码补全检索模型 CARLCoder 研究（2025.06 - 2025.09）
+
+- 研究多段上下文召回对仓库级代码补全效果的影响，提出 RRL 指标量化复合上下文有效性
+- 设计基于强化学习的 CARLCoder 检索模型，EM 与 ES 相较此前方法分别提升 43.8% 和 15.6%
+- 相关成果投稿 EMNLP（CCF-B，学生二作，送审）
 
 ## Stack
+
+- 编程与训练：Python, PyTorch, SFT, DPO, 强化学习
+- Agent 与检索：LangGraph, ReAct, Qdrant, BM25, Embedding, LLM API
+- 工程开发：TypeScript/JavaScript, Node.js, Vue 3, Java, Spring Boot
+- 技能证书：华为 HCIA-AI 人工智能工程师（2025.12）
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="python"/>
